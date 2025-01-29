@@ -25,7 +25,7 @@ classifiers = [
   "Programming Language :: Python"
 ]
 [tool.hatch.build.targets.wheel]
-packages = ["src"]
+packages = ["src/pokemon_world"]
 
 [project.optional-dependencies]
 cli = [
@@ -37,5 +37,4 @@ Documentation = "https://github.com/lorenzodelmedico/PokemonWorld/README.md"
 Repository = "https://github.com/lorenzodelmedico/PokemonWorld"
 
 [project.scripts]
-spam-cli = "spam:main_cli"
-pokemon-world = "src.app:main"
+pokemon-world = "pokemon_world.app:main
