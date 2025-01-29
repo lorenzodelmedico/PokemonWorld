@@ -35,6 +35,18 @@ body {
     object-fit: contain;
 }
 
+#pokemon-display {
+    position: relative; /* Ensure it is positioned */
+    z-index: 1001; /* Higher than the background logo */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: var(--pokemon-blue);
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--pokemon-yellow);
+}
 .popup {
     position: fixed;
     top: 50%;
