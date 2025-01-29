@@ -6,5 +6,8 @@ app = Flask(__name__, template_folder='../../templates', static_folder="../../st
 def index():
     return render_template('index.html')  # No need for './templates/'
 
-if __name__ == '__main__':
+def main():
     app.run(debug=True)
+
+if __name__ == '__main__':
+    main()

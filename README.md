@@ -15,7 +15,8 @@ A modern Pokémon encyclopedia with real-time search, advanced filters, and deta
 
 ## 🚀 Installation
 ```bash
-git clone https://github.com/lorenzodelmedico/pokemaster.git
-cd pokemaster
-npm install
-npm run dev
+git clone https://github.com/lorenzodelmedico/PokemonWorld.git
+
+```
+```start app 
+flask src/pokemon-word/app.py
