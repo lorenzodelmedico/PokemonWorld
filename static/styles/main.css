@@ -42,9 +42,10 @@ body {
 }
 
 .container {
-    text-align: center;
-    padding: 2rem;
-}
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
 
 .pokeball {
     width: 100px;
@@ -85,4 +86,22 @@ body {
     animation: sparkle 1s infinite;
 }
 
+.pikachu-img {
+    filter: drop-shadow(0 0 10px #FFCB05);
+    transition: filter 0.3s;
+  }
+  
+  .pikachu-img:hover {
+    filter: drop-shadow(0 0 20px #FFCB05) brightness(1.1);
+  }
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #2A75BB;
+    }
+
+::-webkit-scrollbar-thumb {
+    background: #FFCB05;
+    border-radius: 5px;
+    }
 /* Add more animations and effects here */

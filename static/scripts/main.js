@@ -37,4 +37,16 @@ document.addEventListener('DOMContentLoaded', () => {
             element.style.transform = 'scale(1)';
         });
     });
+    // Add particle effect on pokeball click
+    import('https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js').then(() => {
+    document.getElementById('pokeball').addEventListener('click', (e) => {
+      party.confetti(e.clientX, e.clientY);
+    });
+  });
+  
+  // Add hover tooltips
+    tippy('[data-tippy-content]', {
+    theme: 'pokemon',
+    animation: 'scale'
+  });
 });
