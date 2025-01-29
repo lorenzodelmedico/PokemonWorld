@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pokemon-world"
-version = "2025.0.1"
+version = "2025.0.2"
 dependencies = [
   "flask>2.0"
 ]
@@ -38,3 +38,4 @@ Repository = "https://github.com/lorenzodelmedico/PokemonWorld"
 
 [project.scripts]
 spam-cli = "spam:main_cli"
+pokemon-world = "src.app:main"
