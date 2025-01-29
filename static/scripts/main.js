@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Handle popup
-    const popup = document.getElementById('pikachu-popup');
-    const closeBtn = document.querySelector('.close-btn');
+    const popup = document.getElementById('sacha-popup');
+    const closeBtn = document.querySelector('.sacha-img');
     const audio = document.getElementById('theme-music');
 
     // Close popup and start music
-    closeBtn.addEventListener('click', () => {
+    sachaImg.addEventListener('click', () => {
         popup.style.display = 'none';
         audio.play().catch(error => {
             // Handle autoplay restrictions

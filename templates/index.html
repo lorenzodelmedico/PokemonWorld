@@ -16,17 +16,20 @@
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
 </head>
+    <!-- Add right after opening body tag -->
 <body>
+    <div class="retro-logo">
+      <img src="{{ url_for('static', filename='images/pokemon_retro_logo.png') }}" alt="Retro Pokemon Logo">
+    </div>
     <!-- Music Player -->
     <audio id="theme-music" loop>
         <source src="{{ url_for('static', filename='audio/pokemon-theme.mp3') }}" type="audio/mpeg">
     </audio>
 
-    <!-- Pikachu Pop-up -->
-    <div id="pikachu-popup" class="popup">
+    <!-- sacha Pop-up -->
+    <div id="sacha-popup" class="popup">
         <div class="popup-content">
-            <span class="close-btn">&times;</span>
-            <img src="{{ url_for('static', filename='images/pikachu.jpg') }}" alt="Pikachu" class="pikachu-img">
+            <img src="{{ url_for('static', filename='images/sacha.png') }}" alt="sacha" class="sacha-img">
         </div>
     </div>
 
