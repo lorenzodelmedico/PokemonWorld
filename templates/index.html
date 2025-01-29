@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon World</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
+</head>
+<body>
+    <!-- Music Player -->
+    <audio id="theme-music" loop>
+        <source src="{{ url_for('static', filename='audio/pokemon-theme.mp3') }}" type="audio/mpeg">
+    </audio>
+
+    <!-- Pikachu Pop-up -->
+    <div id="pikachu-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <img src="{{ url_for('static', filename='images/pikachu.png') }}" alt="Pikachu" class="pikachu-img">
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Welcome to Pokemon World!</h1>
+        
+        <div class="interactive-section">
+            <div class="pokeball" id="pokeball">
+                <div class="pokeball-button"></div>
+            </div>
+            <div id="pokemon-display"></div>
+        </div>
+
+        <div class="effects">
+            <div class="particles"></div>
+            <div class="sparkles"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='scripts/main.js') }}"></script>
+</body>
+</html>
