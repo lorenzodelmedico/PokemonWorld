@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pokemon-world"
-version = "2025.0.0"
+version = "2025.0.1"
 dependencies = [
   "flask>2.0"
 ]
@@ -16,7 +16,7 @@ maintainers = [
   {name = "lorenzo del medico", email = "lorenzodelmedico@gmail.com"}
 ]
 description = "Lovely Pokemon! Wonderful Pokemon! Gotta Catch Them All"
-readme = "README.rst"
+readme = "README.md"
 license = "MIT"
 license-files = ["LICEN[CS]E.*"]
 keywords = ["Pokemon", "Pikachu", "Sacha", "Lorenzodelmedico"]
@@ -24,6 +24,8 @@ classifiers = [
   "Development Status :: 4 - Beta",
   "Programming Language :: Python"
 ]
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
 
 [project.optional-dependencies]
 cli = [
