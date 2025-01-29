@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pokemon-world"
-version = "2025.0.4"
+version = "2025.0.5"
 dependencies = [
   "flask>2.0"
 ]
@@ -37,4 +37,4 @@ Documentation = "https://github.com/lorenzodelmedico/PokemonWorld/README.md"
 Repository = "https://github.com/lorenzodelmedico/PokemonWorld"
 
 [project.scripts]
-pokemon-world = "pokemon_world.app:main"
+pokemon-world = "pokemon_world.app:master"

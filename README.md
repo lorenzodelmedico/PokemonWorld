@@ -1,6 +1,7 @@
 # PokéMaster 🌀 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![App Preview](./static/images/pokemon_retro_logo.png)
+![App Preview](https://raw.githubusercontent.com/lorenzodelmedico/PokemonWorld/master/static/images/pokemon_retro_logo.png)
+
 
 A modern Pokémon encyclopedia with real-time search, advanced filters, and detailed analytics.
 
@@ -14,9 +15,11 @@ A modern Pokémon encyclopedia with real-time search, advanced filters, and deta
 - 🎮 Game version compatibility tags
 
 ## 🚀 Installation
-```bash
+
 git clone https://github.com/lorenzodelmedico/PokemonWorld.git
 
-```
-```start app 
-flask src/pokemon-word/app.py
+Move to master branch
+
+use cmd below to start the app : 
+
+python src/pokemon-word/app.py
