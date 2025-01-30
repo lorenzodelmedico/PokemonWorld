@@ -26,11 +26,6 @@ classifiers = [
 [tool.hatch.build.targets.wheel]
 packages = ["src/pokemon_world"]
 
-[project.optional-dependencies]
-cli = [
-  "click",
-]
-
 [project.urls]
 Documentation = "https://github.com/lorenzodelmedico/PokemonWorld/README.md"
 Repository = "https://github.com/lorenzodelmedico/PokemonWorld"
