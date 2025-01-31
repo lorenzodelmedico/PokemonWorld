@@ -1,4 +1,4 @@
-LICENCE.txt
+LICENSE
 MANIFEST.in
 README.md
 pyproject.toml
@@ -12,6 +12,7 @@ src/pokemon_world.egg-info/entry_points.txt
 src/pokemon_world.egg-info/requires.txt
 src/pokemon_world.egg-info/top_level.txt
 src/pokemon_world/static/audio/pokemon-theme.mp3
+src/pokemon_world/static/images/myhome.jpg
 src/pokemon_world/static/images/pikachu.jpg
 src/pokemon_world/static/images/pokemon_retro_logo.png
 src/pokemon_world/static/images/sacha.png

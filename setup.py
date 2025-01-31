@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pokemon-world",
-    version="2025.1.3",
+    version="2025.1.4",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     include_package_data=True,

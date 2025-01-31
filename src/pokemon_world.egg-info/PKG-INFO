@@ -1,9 +1,31 @@
 Metadata-Version: 2.2
 Name: pokemon-world
-Version: 2025.1.3
+Version: 2025.1.4
 Summary: Lovely Pokemon! Wonderful Pokemon! Gotta Catch Them All
 Author-email: lorenzo del medico <lorenzodelmedico@gmail.com>
 Maintainer-email: lorenzo del medico <lorenzodelmedico@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2025 LordBenzo 
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
 Project-URL: Documentation, https://github.com/lorenzodelmedico/PokemonWorld/README.md
 Project-URL: Repository, https://github.com/lorenzodelmedico/PokemonWorld
 Keywords: Pokemon,Pikachu,Sacha,Magicarpe,Leviator,Mew,Salamèche,Lorenzodelmedico
@@ -12,12 +34,12 @@ Classifier: Programming Language :: Python
 Classifier: Programming Language :: JavaScript
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
-License-File: LICENCE.txt
+License-File: LICENSE
 Requires-Dist: flask>2.0
 
 # PokéMaster 🌀 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![App Preview](https://raw.githubusercontent.com/lorenzodelmedico/PokemonWorld/master/static/images/pokemon_retro_logo.png)
+![App Preview](https://raw.githubusercontent.com/lorenzodelmedico/PokemonWorld/main/static/images/myhome.jpeg)
 
 
 A modern Pokémon encyclopedia with real-time search, advanced filters, and detailed analytics. 
