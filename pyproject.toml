@@ -18,10 +18,12 @@ maintainers = [
 description = "Lovely Pokemon! Wonderful Pokemon! Gotta Catch Them All"
 readme = "README.md"
 license = {file = "LICENSE"}
-keywords = ["Pokemon", "Pikachu", "Sacha", "Lorenzodelmedico"]
+keywords = ["Pokemon", "Pikachu", "Sacha","Magicarpe", "Leviator", "Mew", "Salamèche", "Lorenzodelmedico"]
 classifiers = [
   "Development Status :: 4 - Beta",
   "Programming Language :: Python"
+  "Programming Language :: Javascript"
+  "Programming Language :: css"
 ]
 [tool.hatch.build.targets.wheel]
 packages = ["src/pokemon_world"]
