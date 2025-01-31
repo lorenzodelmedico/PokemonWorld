@@ -1,7 +1,6 @@
 # PokéMaster 🌀 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![App Preview](https://raw.githubusercontent.com/lorenzodelmedico/PokemonWorld/main/static/images/myhome.jpeg)
-
+![App Preview](https://raw.githubusercontent.com/lorenzodelmedico/PokemonWorld/main/src/pokemon_world/static/images/myhome.jpg)
 
 A modern Pokémon encyclopedia with real-time search, advanced filters, and detailed analytics. 
 
