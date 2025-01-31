@@ -5,6 +5,8 @@
 
 A modern Pokémon encyclopedia with real-time search, advanced filters, and detailed analytics. 
 
+Expect a cool website, maybe not as cool as defined tho, don't expect any python method. This is the way. 
+
 ## ✨ Features
 - ⚡ Instant search with debounce
 - 🌓 Auto-switching dark/light mode

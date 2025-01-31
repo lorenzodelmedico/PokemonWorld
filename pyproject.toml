@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pokemon-world"
-version = "2025.1.2"
+version = "2025.1.3"
 dependencies = [
   "flask>2.0"
 ]
@@ -21,9 +21,8 @@ license = {file = "LICENSE"}
 keywords = ["Pokemon", "Pikachu", "Sacha","Magicarpe", "Leviator", "Mew", "Salamèche", "Lorenzodelmedico"]
 classifiers = [
   "Development Status :: 4 - Beta",
-  "Programming Language :: Python"
-  "Programming Language :: Javascript"
-  "Programming Language :: css"
+  "Programming Language :: Python",
+  "Programming Language :: JavaScript"
 ]
 [tool.hatch.build.targets.wheel]
 packages = ["src/pokemon_world"]
